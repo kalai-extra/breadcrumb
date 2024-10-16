@@ -1,0 +1,24 @@
+/hst:hst/hst:configurations/breadcrumbdemo/hst:workspace/hst:sitemap/testfolder:
+  jcr:primaryType: hst:sitemapitem
+  hst:componentconfigurationid: hst:pages/testfolder-contentpage
+  hst:lastmodified: 2024-10-16T11:52:42.102+02:00
+  hst:pagetitle: testfolder
+  hst:relativecontentpath: testfolder
+  /testsubfolder:
+    jcr:primaryType: hst:sitemapitem
+    hst:componentconfigurationid: hst:pages/testfolder-testsubfolder-contentpage
+    hst:lastmodified: 2024-10-16T11:52:53.667+02:00
+    hst:pagetitle: testsubfolder
+    /testsubsubfolder:
+      jcr:primaryType: hst:sitemapitem
+      hst:componentconfigurationid: hst:pages/testfolder-testsubfolder-testsubsubfolder-contentpage
+      hst:lastmodified: 2024-10-16T11:52:53.667+02:00
+      hst:pagetitle: testsubsubfolder
+  /_any_:
+    jcr:primaryType: hst:sitemapitem
+    hst:componentconfigurationid: hst:pages/bloglist
+    hst:relativecontentpath: ${parent}/${1}
+  /_any_.html:
+    jcr:primaryType: hst:sitemapitem
+    hst:componentconfigurationid: hst:pages/blogpage
+    hst:relativecontentpath: ${parent}/${1}

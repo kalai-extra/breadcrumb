@@ -1,0 +1,5 @@
+/hst:hst/hst:configurations/breadcrumbdemo/hst:workspace/hst:sitemenus/main/testfolder:
+  .meta:order-before: blog
+  jcr:primaryType: hst:sitemenuitem
+  hst:referencesitemapitem: testfolder
+  hst:repobased: false

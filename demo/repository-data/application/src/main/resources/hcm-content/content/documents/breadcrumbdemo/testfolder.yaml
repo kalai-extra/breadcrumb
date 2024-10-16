@@ -1,0 +1,219 @@
+/content/documents/breadcrumbdemo/testfolder:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 6f8319e8-3e69-4621-beb9-c5cb3c849128
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: b9fb694a-dd75-4e84-aae9-732bc2fcacb9
+  hippotranslation:locale: en
+  /testsubfolder:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: de8da384-b59b-4de7-94b9-d68dd01e8e00
+    hippostd:foldertype: [new-translated-folder, new-document]
+    hippotranslation:id: 361cb6f5-bcbc-415c-b4cf-6ec51a44470b
+    hippotranslation:locale: en
+    /testsubsubfolder:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+      jcr:uuid: c981b5ba-0a14-441e-a53c-709ad09c58af
+      hippostd:foldertype: [new-translated-folder, new-document]
+      hippotranslation:id: 1e2e7926-1859-49ac-8ad3-1e54516aeec8
+      hippotranslation:locale: en
+      /testsubsubfolder:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:versionInfo', 'mix:referenceable']
+        jcr:uuid: 68fd05ef-df4b-4bed-84c6-cc69f8dc39ce
+        hippo:versionHistory: a08022b6-2839-45f3-9b7c-85d588d7cf5c
+        /testsubsubfolder[1]:
+          jcr:primaryType: breadcrumbdemo:contentdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: aca19937-8c74-4808-9b0b-cba6aaf4256b
+          breadcrumbdemo:introduction: test sub sub
+          breadcrumbdemo:publicationdate: 0001-01-01T13:00:00+01:00
+          breadcrumbdemo:title: test sub sub
+          hippo:availability: []
+          hippo:related___pathreference: []
+          hippostd:retainable: false
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2024-10-16T11:50:56.466+02:00
+          hippostdpubwf:lastModificationDate: 2024-10-16T11:51:09.677+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 383829d1-5186-42a0-8ca5-4fe03e396048
+          hippotranslation:locale: en
+          /breadcrumbdemo:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>test sub sub</p>
+        /testsubsubfolder[2]:
+          jcr:primaryType: breadcrumbdemo:contentdocument
+          jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+          jcr:uuid: 33fd963a-3fc9-43b4-93ec-7b5a2cf9f205
+          breadcrumbdemo:introduction: test sub sub
+          breadcrumbdemo:publicationdate: 0001-01-01T13:00:00+01:00
+          breadcrumbdemo:title: test sub sub
+          hippo:availability: [preview]
+          hippo:related___pathreference: []
+          hippostd:retainable: false
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2024-10-16T11:50:56.466+02:00
+          hippostdpubwf:lastModificationDate: 2024-10-16T11:51:09.634+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 383829d1-5186-42a0-8ca5-4fe03e396048
+          hippotranslation:locale: en
+          /breadcrumbdemo:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>test sub sub</p>
+        /testsubsubfolder[3]:
+          jcr:primaryType: breadcrumbdemo:contentdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: ce8f9141-138c-467a-871b-269602c81311
+          breadcrumbdemo:introduction: test sub sub
+          breadcrumbdemo:publicationdate: 0001-01-01T13:00:00+01:00
+          breadcrumbdemo:title: test sub sub
+          hippo:availability: [live]
+          hippo:related___pathreference: []
+          hippostd:retainable: false
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2024-10-16T11:50:56.466+02:00
+          hippostdpubwf:lastModificationDate: 2024-10-16T11:51:09.634+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2024-10-16T11:51:12.725+02:00
+          hippotranslation:id: 383829d1-5186-42a0-8ca5-4fe03e396048
+          hippotranslation:locale: en
+          /breadcrumbdemo:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <p>test sub sub</p>
+    /testsubfolder:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:versionInfo', 'mix:referenceable']
+      jcr:uuid: 3133d475-ee8b-4333-bf94-1ec86f1e4c0e
+      hippo:versionHistory: 1144e746-44db-4cb2-bee2-3f2a5a29eaad
+      /testsubfolder[1]:
+        jcr:primaryType: breadcrumbdemo:contentdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: e7c06773-35c5-499f-adbd-6da17435d806
+        breadcrumbdemo:introduction: test sub
+        breadcrumbdemo:publicationdate: 0001-01-01T13:00:00+01:00
+        breadcrumbdemo:title: test sub
+        hippo:availability: []
+        hippo:related___pathreference: []
+        hippostd:retainable: false
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2024-10-16T11:50:29.790+02:00
+        hippostdpubwf:lastModificationDate: 2024-10-16T11:50:41.680+02:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 3f2b984d-7467-4f84-8cf0-6bfe13414444
+        hippotranslation:locale: en
+        /breadcrumbdemo:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>test sub</p>
+      /testsubfolder[2]:
+        jcr:primaryType: breadcrumbdemo:contentdocument
+        jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+        jcr:uuid: c7f8c56d-80b4-4ab7-9be0-fff36d50ab9e
+        breadcrumbdemo:introduction: test sub
+        breadcrumbdemo:publicationdate: 0001-01-01T13:00:00+01:00
+        breadcrumbdemo:title: test sub
+        hippo:availability: [preview]
+        hippo:related___pathreference: []
+        hippostd:retainable: false
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2024-10-16T11:50:29.790+02:00
+        hippostdpubwf:lastModificationDate: 2024-10-16T11:50:40.956+02:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 3f2b984d-7467-4f84-8cf0-6bfe13414444
+        hippotranslation:locale: en
+        /breadcrumbdemo:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>test sub</p>
+      /testsubfolder[3]:
+        jcr:primaryType: breadcrumbdemo:contentdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 059baa74-b999-4939-a760-ac0c13d271fe
+        breadcrumbdemo:introduction: test sub
+        breadcrumbdemo:publicationdate: 0001-01-01T13:00:00+01:00
+        breadcrumbdemo:title: test sub
+        hippo:availability: [live]
+        hippo:related___pathreference: []
+        hippostd:retainable: false
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2024-10-16T11:50:29.790+02:00
+        hippostdpubwf:lastModificationDate: 2024-10-16T11:50:40.956+02:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2024-10-16T11:50:45.064+02:00
+        hippotranslation:id: 3f2b984d-7467-4f84-8cf0-6bfe13414444
+        hippotranslation:locale: en
+        /breadcrumbdemo:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: <p>test sub</p>
+  /testfolder:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 69311436-b05b-4ec7-b815-b4a23d8b2ab9
+    hippo:versionHistory: 29c96cca-ea07-45e0-b0f6-89753c5a7129
+    /testfolder[1]:
+      jcr:primaryType: breadcrumbdemo:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: eec0f76d-cbc9-40af-adb0-d964d684e0c2
+      breadcrumbdemo:introduction: test
+      breadcrumbdemo:publicationdate: 0001-01-01T13:00:00+01:00
+      breadcrumbdemo:title: test
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2024-10-16T11:49:50.081+02:00
+      hippostdpubwf:lastModificationDate: 2024-10-16T11:49:50.084+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 0a557274-c24d-4c68-bee0-07348ee55191
+      hippotranslation:locale: en
+      /breadcrumbdemo:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>test</p>
+    /testfolder[2]:
+      jcr:primaryType: breadcrumbdemo:contentdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 8d683998-7891-451b-ad41-b2b3e6f78993
+      breadcrumbdemo:introduction: test
+      breadcrumbdemo:publicationdate: 0001-01-01T13:00:00+01:00
+      breadcrumbdemo:title: test
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2024-10-16T11:49:50.081+02:00
+      hippostdpubwf:lastModificationDate: 2024-10-16T11:50:05.167+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 0a557274-c24d-4c68-bee0-07348ee55191
+      hippotranslation:locale: en
+      /breadcrumbdemo:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>test</p>
+    /testfolder[3]:
+      jcr:primaryType: breadcrumbdemo:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: e3099c14-204c-4762-8da1-fb2e7048fb82
+      breadcrumbdemo:introduction: test
+      breadcrumbdemo:publicationdate: 0001-01-01T13:00:00+01:00
+      breadcrumbdemo:title: test
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2024-10-16T11:49:50.081+02:00
+      hippostdpubwf:lastModificationDate: 2024-10-16T11:50:05.167+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2024-10-16T11:50:11.533+02:00
+      hippotranslation:id: 0a557274-c24d-4c68-bee0-07348ee55191
+      hippotranslation:locale: en
+      /breadcrumbdemo:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>test</p>

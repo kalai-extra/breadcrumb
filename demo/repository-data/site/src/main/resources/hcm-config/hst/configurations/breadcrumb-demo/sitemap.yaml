@@ -10,6 +10,7 @@ definitions:
       /_any_:
         jcr:primaryType: hst:sitemapitem
         hst:componentconfigurationid: hst:pages/pagenotfound
+        hst:relativecontentpath: pages/${1}
       /pagenotfound:
         jcr:primaryType: hst:sitemapitem
         hst:componentconfigurationid: hst:pages/pagenotfound

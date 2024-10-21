@@ -1,0 +1,362 @@
+/content/documents/breadcrumbdemo/pages:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippostd:xpagefolder', 'hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 0683d847-94ca-4924-8c19-3323fb52c1a6
+  hippostd:channelid: breadcrumbdemo
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: 68e014f8-7e95-4c53-aa87-1cc30d852ae7
+  hippotranslation:locale: en
+  /level1:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippostd:xpagefolder', 'hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: ee97743f-6314-45d3-bd63-04005c0d2d94
+    hippostd:channelid: breadcrumbdemo
+    hippostd:foldertype: [new-translated-folder, new-document]
+    hippotranslation:id: 8772959e-109f-4002-8425-ffafa8942e59
+    hippotranslation:locale: en
+    /level2:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippostd:xpagefolder', 'hippotranslation:translated', 'mix:versionable']
+      jcr:uuid: 8fc3d083-9418-4eeb-849d-b0dac862083b
+      hippostd:channelid: breadcrumbdemo
+      hippostd:foldertype: [new-translated-folder, new-document]
+      hippotranslation:id: 539fbe31-9bdf-4433-87fd-d820ee06fa4e
+      hippotranslation:locale: en
+      /level3:
+        jcr:primaryType: hippostd:folder
+        jcr:mixinTypes: ['hippostd:xpagefolder', 'hippotranslation:translated', 'mix:versionable']
+        jcr:uuid: 85c8ca42-3966-44e8-99e1-7494d7dfa737
+        hippostd:channelid: breadcrumbdemo
+        hippostd:foldertype: [new-translated-folder, new-document]
+        hippotranslation:id: 0fcd49da-c29e-4dfe-9829-e2cbe2862634
+        hippotranslation:locale: en
+        /level3-page:
+          jcr:primaryType: hippo:handle
+          jcr:mixinTypes: ['hippo:versionInfo', 'mix:referenceable']
+          jcr:uuid: 7daa0d1a-76f7-4b17-b311-afc73e82c932
+          hippo:versionHistory: defc51da-63d2-4e33-9ce7-f111c826e724
+          /level3-page[1]:
+            jcr:primaryType: breadcrumbdemo:contentdocument
+            jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable']
+            jcr:uuid: 3c1020d0-5dfc-451a-b638-89d05665702a
+            breadcrumbdemo:introduction: ''
+            breadcrumbdemo:publicationdate: 0001-01-01T13:00:00+01:00
+            breadcrumbdemo:title: ''
+            hippo:availability: []
+            hippo:related___pathreference: []
+            hippostd:retainable: false
+            hippostd:state: draft
+            hippostdpubwf:createdBy: admin
+            hippostdpubwf:creationDate: 2024-10-21T15:22:22.690+02:00
+            hippostdpubwf:lastModificationDate: 2024-10-21T15:22:22.690+02:00
+            hippostdpubwf:lastModifiedBy: admin
+            hippotranslation:id: e703fb51-d35b-49c5-88ac-3a665db6c9a4
+            hippotranslation:locale: en
+            /breadcrumbdemo:content:
+              jcr:primaryType: hippostd:html
+              hippostd:content: ''
+          /level3-page[2]:
+            jcr:primaryType: breadcrumbdemo:contentdocument
+            jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable', 'mix:versionable']
+            jcr:uuid: 9a5c87e4-4abc-4224-91b6-ced5d9c24cd4
+            breadcrumbdemo:introduction: ''
+            breadcrumbdemo:publicationdate: 0001-01-01T13:00:00+01:00
+            breadcrumbdemo:title: ''
+            hippo:availability: [preview]
+            hippo:related___pathreference: []
+            hippostd:retainable: false
+            hippostd:state: unpublished
+            hippostdpubwf:createdBy: admin
+            hippostdpubwf:creationDate: 2024-10-21T15:22:22.690+02:00
+            hippostdpubwf:lastModificationDate: 2024-10-21T16:31:26.024+02:00
+            hippostdpubwf:lastModifiedBy: admin
+            hippotranslation:id: e703fb51-d35b-49c5-88ac-3a665db6c9a4
+            hippotranslation:locale: en
+            /breadcrumbdemo:content:
+              jcr:primaryType: hippostd:html
+              hippostd:content: ''
+            /hst:xpage:
+              jcr:primaryType: hst:xpage
+              jcr:uuid: 59a247a0-f888-4a14-80c0-ac2435078fd6
+              hst:pageref: default
+              /6ed6eb41-aaa8-45c7-8210-67ba26eaf89f:
+                jcr:primaryType: hst:containercomponent
+                jcr:uuid: 7c182e47-7c7e-499e-8b4a-660964715469
+                hippo:identifier: 41e211a9-9ad7-41b6-83b1-b1366eb724f1
+                hst:lastmodified: 2024-10-21T16:31:26.023+02:00
+          /level3-page[3]:
+            jcr:primaryType: breadcrumbdemo:contentdocument
+            jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable']
+            jcr:uuid: 57fcf804-ab98-4938-9912-3b0389b40327
+            breadcrumbdemo:introduction: ''
+            breadcrumbdemo:publicationdate: 0001-01-01T13:00:00+01:00
+            breadcrumbdemo:title: ''
+            hippo:availability: [live]
+            hippo:related___pathreference: []
+            hippostd:retainable: false
+            hippostd:state: published
+            hippostdpubwf:createdBy: admin
+            hippostdpubwf:creationDate: 2024-10-21T15:22:22.690+02:00
+            hippostdpubwf:lastModificationDate: 2024-10-21T16:31:26.024+02:00
+            hippostdpubwf:lastModifiedBy: admin
+            hippostdpubwf:publicationDate: 2024-10-21T16:43:21.570+02:00
+            hippotranslation:id: e703fb51-d35b-49c5-88ac-3a665db6c9a4
+            hippotranslation:locale: en
+            /breadcrumbdemo:content:
+              jcr:primaryType: hippostd:html
+              hippostd:content: ''
+            /hst:xpage:
+              jcr:primaryType: hst:xpage
+              jcr:uuid: 475622cb-f8ac-4498-b431-c864862741fc
+              hst:pageref: default
+              /6ed6eb41-aaa8-45c7-8210-67ba26eaf89f:
+                jcr:primaryType: hst:containercomponent
+                jcr:uuid: 074dfc48-7589-4cbf-945d-b8c793c247bd
+                hippo:identifier: 41e211a9-9ad7-41b6-83b1-b1366eb724f1
+                hst:lastmodified: 2024-10-21T16:31:26.023+02:00
+      /level2-page:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:versionInfo', 'mix:referenceable']
+        jcr:uuid: 00a876f8-1d52-49fe-b2c1-522e6501db15
+        hippo:versionHistory: d1540b66-3575-4128-940d-6c61869c7764
+        /level2-page[1]:
+          jcr:primaryType: breadcrumbdemo:contentdocument
+          jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable']
+          jcr:uuid: 9d1985d2-c557-42b6-8a49-fecb72c5c598
+          breadcrumbdemo:introduction: ''
+          breadcrumbdemo:publicationdate: 0001-01-01T13:00:00+01:00
+          breadcrumbdemo:title: ''
+          hippo:availability: []
+          hippo:related___pathreference: []
+          hippostd:retainable: false
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2024-10-21T15:22:11.804+02:00
+          hippostdpubwf:lastModificationDate: 2024-10-21T15:22:11.804+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 30c8cc5f-2d8c-4c4b-bae9-db60fc0e16f3
+          hippotranslation:locale: en
+          /breadcrumbdemo:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+        /level2-page[2]:
+          jcr:primaryType: breadcrumbdemo:contentdocument
+          jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable', 'mix:versionable']
+          jcr:uuid: 014ebe35-cc90-4968-a93a-6f95a6d136a7
+          breadcrumbdemo:introduction: ''
+          breadcrumbdemo:publicationdate: 0001-01-01T13:00:00+01:00
+          breadcrumbdemo:title: ''
+          hippo:availability: [preview]
+          hippo:related___pathreference: []
+          hippostd:retainable: false
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2024-10-21T15:22:11.804+02:00
+          hippostdpubwf:lastModificationDate: 2024-10-21T15:22:12.721+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 30c8cc5f-2d8c-4c4b-bae9-db60fc0e16f3
+          hippotranslation:locale: en
+          /breadcrumbdemo:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /hst:xpage:
+            jcr:primaryType: hst:xpage
+            jcr:uuid: 77419903-c2d1-4a9d-959a-04afc075396c
+            hst:pageref: default
+            /6ed6eb41-aaa8-45c7-8210-67ba26eaf89f:
+              jcr:primaryType: hst:containercomponent
+              jcr:uuid: d36ad9b6-5b7c-4584-9db7-0c703824d74c
+              hippo:identifier: 33bcdc07-cdcc-4fe8-9f09-b2389e7958cd
+        /level2-page[3]:
+          jcr:primaryType: breadcrumbdemo:contentdocument
+          jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable']
+          jcr:uuid: 6b11a830-9caa-413a-802d-3909bd85f3d0
+          breadcrumbdemo:introduction: ''
+          breadcrumbdemo:publicationdate: 0001-01-01T13:00:00+01:00
+          breadcrumbdemo:title: ''
+          hippo:availability: [live]
+          hippo:related___pathreference: []
+          hippostd:retainable: false
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2024-10-21T15:22:11.804+02:00
+          hippostdpubwf:lastModificationDate: 2024-10-21T15:22:12.721+02:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2024-10-21T16:43:09.911+02:00
+          hippotranslation:id: 30c8cc5f-2d8c-4c4b-bae9-db60fc0e16f3
+          hippotranslation:locale: en
+          /breadcrumbdemo:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /hst:xpage:
+            jcr:primaryType: hst:xpage
+            jcr:uuid: 9a1baf88-17a7-4eda-b4d0-73cd025aff69
+            hst:pageref: default
+            /6ed6eb41-aaa8-45c7-8210-67ba26eaf89f:
+              jcr:primaryType: hst:containercomponent
+              jcr:uuid: dfb4e8fa-68cd-4064-ad8e-4ec0158a8644
+              hippo:identifier: 33bcdc07-cdcc-4fe8-9f09-b2389e7958cd
+    /level1-page:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:versionInfo', 'mix:referenceable']
+      jcr:uuid: 833953c0-8f45-4dbc-a0b6-6b680278fc28
+      hippo:versionHistory: fcc254e0-bfea-4656-8e4e-de498adc5bb5
+      /level1-page[1]:
+        jcr:primaryType: breadcrumbdemo:contentdocument
+        jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable']
+        jcr:uuid: 15b1a683-5818-49a7-94b8-48fa9109278f
+        breadcrumbdemo:introduction: ''
+        breadcrumbdemo:publicationdate: 0001-01-01T13:00:00+01:00
+        breadcrumbdemo:title: ''
+        hippo:availability: []
+        hippo:related___pathreference: []
+        hippostd:retainable: false
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2024-10-21T15:20:33.827+02:00
+        hippostdpubwf:lastModificationDate: 2024-10-21T15:20:33.827+02:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: d14cf6e8-6c8d-4df2-9a27-8c1fc94b3a91
+        hippotranslation:locale: en
+        /breadcrumbdemo:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: ''
+      /level1-page[2]:
+        jcr:primaryType: breadcrumbdemo:contentdocument
+        jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable', 'mix:versionable']
+        jcr:uuid: fafd2d8c-b3c5-4e8e-a5e7-efb2d9d9ecd6
+        breadcrumbdemo:introduction: ''
+        breadcrumbdemo:publicationdate: 0001-01-01T13:00:00+01:00
+        breadcrumbdemo:title: ''
+        hippo:availability: [preview]
+        hippo:related___pathreference: []
+        hippostd:retainable: false
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2024-10-21T15:20:33.827+02:00
+        hippostdpubwf:lastModificationDate: 2024-10-21T15:20:34.853+02:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: d14cf6e8-6c8d-4df2-9a27-8c1fc94b3a91
+        hippotranslation:locale: en
+        /breadcrumbdemo:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: ''
+        /hst:xpage:
+          jcr:primaryType: hst:xpage
+          jcr:uuid: 1b5453cb-89da-4cca-b8cd-dab8eff554bd
+          hst:pageref: default
+          /6ed6eb41-aaa8-45c7-8210-67ba26eaf89f:
+            jcr:primaryType: hst:containercomponent
+            jcr:uuid: 885222a1-b376-40a5-8a08-7c9e5f3e5fe3
+            hippo:identifier: fffe5aa9-d3df-44b4-a1b4-87271ba2f285
+      /level1-page[3]:
+        jcr:primaryType: breadcrumbdemo:contentdocument
+        jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable']
+        jcr:uuid: 93c42935-773c-4bfd-a0aa-ada58abe2c24
+        breadcrumbdemo:introduction: ''
+        breadcrumbdemo:publicationdate: 0001-01-01T13:00:00+01:00
+        breadcrumbdemo:title: ''
+        hippo:availability: [live]
+        hippo:related___pathreference: []
+        hippostd:retainable: false
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2024-10-21T15:20:33.827+02:00
+        hippostdpubwf:lastModificationDate: 2024-10-21T15:20:34.853+02:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2024-10-21T16:42:57.668+02:00
+        hippotranslation:id: d14cf6e8-6c8d-4df2-9a27-8c1fc94b3a91
+        hippotranslation:locale: en
+        /breadcrumbdemo:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: ''
+        /hst:xpage:
+          jcr:primaryType: hst:xpage
+          jcr:uuid: 13c08584-262b-4ca6-a457-a4278166984d
+          hst:pageref: default
+          /6ed6eb41-aaa8-45c7-8210-67ba26eaf89f:
+            jcr:primaryType: hst:containercomponent
+            jcr:uuid: f1981eef-be35-4777-b223-1ebb12bbdff6
+            hippo:identifier: fffe5aa9-d3df-44b4-a1b4-87271ba2f285
+  /level0:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 2548f412-9979-45a7-ac89-4b087cd80c24
+    hippo:versionHistory: 5b951c3c-f1bd-4303-9004-f8f3b0c24f83
+    /level0[1]:
+      jcr:primaryType: breadcrumbdemo:contentdocument
+      jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable']
+      jcr:uuid: 467a7429-3b01-4c94-a498-52b9a1ece767
+      breadcrumbdemo:introduction: ''
+      breadcrumbdemo:publicationdate: 0001-01-01T13:00:00+01:00
+      breadcrumbdemo:title: ''
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2024-10-21T15:19:43.883+02:00
+      hippostdpubwf:lastModificationDate: 2024-10-21T15:19:43.883+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: a3789dcb-5d53-4f1d-9ab5-ee995a9d52aa
+      hippotranslation:locale: en
+      /breadcrumbdemo:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+    /level0[2]:
+      jcr:primaryType: breadcrumbdemo:contentdocument
+      jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable', 'mix:versionable']
+      jcr:uuid: 3a56e6e5-4488-4143-bac9-f87224d341d0
+      breadcrumbdemo:introduction: ''
+      breadcrumbdemo:publicationdate: 0001-01-01T13:00:00+01:00
+      breadcrumbdemo:title: ''
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2024-10-21T15:19:43.883+02:00
+      hippostdpubwf:lastModificationDate: 2024-10-21T15:19:47.316+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: a3789dcb-5d53-4f1d-9ab5-ee995a9d52aa
+      hippotranslation:locale: en
+      /breadcrumbdemo:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+      /hst:xpage:
+        jcr:primaryType: hst:xpage
+        jcr:uuid: 10753a53-20a0-4c1b-8457-9083c727e2bc
+        hst:pageref: default
+        /6ed6eb41-aaa8-45c7-8210-67ba26eaf89f:
+          jcr:primaryType: hst:containercomponent
+          jcr:uuid: 937829ea-db8a-4cb0-9699-a035a30090b1
+          hippo:identifier: a2eb01dd-3772-4f09-92cb-12d95c6e7ad7
+    /level0[3]:
+      jcr:primaryType: breadcrumbdemo:contentdocument
+      jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable']
+      jcr:uuid: 961d2a5b-0594-41b0-ad9e-965b5f48bf0f
+      breadcrumbdemo:introduction: ''
+      breadcrumbdemo:publicationdate: 0001-01-01T13:00:00+01:00
+      breadcrumbdemo:title: ''
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2024-10-21T15:19:43.883+02:00
+      hippostdpubwf:lastModificationDate: 2024-10-21T15:19:47.316+02:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2024-10-21T15:21:59.577+02:00
+      hippotranslation:id: a3789dcb-5d53-4f1d-9ab5-ee995a9d52aa
+      hippotranslation:locale: en
+      /breadcrumbdemo:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+      /hst:xpage:
+        jcr:primaryType: hst:xpage
+        jcr:uuid: 11e057a9-3870-4bfa-ae0c-784f056c38ee
+        hst:pageref: default
+        /6ed6eb41-aaa8-45c7-8210-67ba26eaf89f:
+          jcr:primaryType: hst:containercomponent
+          jcr:uuid: 5fa1766f-db0d-4096-907f-2ffb959259f7
+          hippo:identifier: a2eb01dd-3772-4f09-92cb-12d95c6e7ad7

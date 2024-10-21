@@ -1,0 +1,12 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/breadcrumbdemo/hst:xpages:
+      jcr:primaryType: hst:xpages
+      /default:
+        jcr:primaryType: hst:xpage
+        hst:label: Default Layout
+        hst:referencecomponent: hst:abstractpages/base
+        /main:
+          jcr:primaryType: hst:containercomponent
+          hippo:identifier: 6ed6eb41-aaa8-45c7-8210-67ba26eaf89f
+          hst:xtype: hst.vbox

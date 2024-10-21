@@ -1,0 +1,13 @@
+/hst:hst/hst:configurations/breadcrumbdemo/hst:workspace/hst:sitemenus/main/level1:
+  .meta:order-before: blog
+  jcr:primaryType: hst:sitemenuitem
+  hst:referencesitemapitem: level1/level1-page
+  hst:repobased: false
+  /level2:
+    jcr:primaryType: hst:sitemenuitem
+    hst:referencesitemapitem: level1/level2/level2-page
+    hst:repobased: false
+    /level3:
+      jcr:primaryType: hst:sitemenuitem
+      hst:referencesitemapitem: level1/level2/level3/level3-page
+      hst:repobased: false

@@ -4,3 +4,5 @@ definitions:
       jcr:primaryType: hst:component
       hst:componentclassname: org.onehippo.forge.breadcrumb.components.BreadcrumbComponent
       hst:template: breadcrumb.template
+      hst:parameternames: [breadcrumb-add-content-based]
+      hst:parametervalues: ['true']

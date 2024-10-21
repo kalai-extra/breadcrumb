@@ -1,0 +1,14 @@
+/hst:hst/hst:configurations/breadcrumbdemo/hst:workspace/hst:sitemap/level1:
+  jcr:primaryType: hst:sitemapitem
+  hst:componentconfigurationid: hst:pages/level1-contentpage
+  hst:lastmodified: 2024-10-21T19:15:31.260+02:00
+  hst:pagetitle: level1
+  hst:relativecontentpath: level1
+  /_any_:
+    jcr:primaryType: hst:sitemapitem
+    hst:componentconfigurationid: hst:pages/bloglist
+    hst:relativecontentpath: ${parent}/${1}
+  /_any_.html:
+    jcr:primaryType: hst:sitemapitem
+    hst:componentconfigurationid: hst:pages/blogpage
+    hst:relativecontentpath: ${parent}/${1}

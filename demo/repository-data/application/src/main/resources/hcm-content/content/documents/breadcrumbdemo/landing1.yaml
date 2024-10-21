@@ -1,0 +1,8 @@
+/content/documents/breadcrumbdemo/landing1:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippostd:xpagefolder', 'hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 0844ae53-b06f-4f4d-8960-622a0683055b
+  hippostd:channelid: breadcrumbdemo
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: f6d2d018-e08d-41c5-ac46-06eb006f7fc2
+  hippotranslation:locale: en

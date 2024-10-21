@@ -1,0 +1,22 @@
+/content/documents/breadcrumbdemo/level1:
+  .meta:order-before: landing1
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 1fe11588-c7cc-4cf7-9a59-1703503f3f16
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: cf443d3b-a724-4862-8f77-38d98bef2ca1
+  hippotranslation:locale: en
+  /level2:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: f798770c-2a67-4b3e-910b-f8f0d06b23f2
+    hippostd:foldertype: [new-translated-folder, new-document]
+    hippotranslation:id: 754630c4-0226-4f06-bcfe-3130303f014c
+    hippotranslation:locale: en
+    /level3:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+      jcr:uuid: bd1e5854-044e-43b2-a69a-2f1acc03ac76
+      hippostd:foldertype: [new-translated-folder, new-document]
+      hippotranslation:id: 3ce9c370-6f36-4e86-82fd-b94fef555103
+      hippotranslation:locale: en

@@ -1,0 +1,12 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/breadcrumbdemo/hst:xpages:
+      jcr:primaryType: hst:xpages
+      /landing1:
+        jcr:primaryType: hst:xpage
+        hst:label: landing1
+        hst:referencecomponent: hst:abstractpages/base
+        /main:
+          jcr:primaryType: hst:containercomponent
+          hippo:identifier: 6c48302b-f0d2-422f-93a7-27fee4108e68
+          hst:xtype: hst:vbox

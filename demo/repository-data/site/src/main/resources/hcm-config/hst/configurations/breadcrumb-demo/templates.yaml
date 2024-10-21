@@ -7,7 +7,7 @@ definitions:
         hst:renderpath: webfile:/freemarker/breadcrumbdemo/base-layout.ftl
       /base-top-menu:
         jcr:primaryType: hst:template
-        hst:renderpath: webfile:/freemarker/breadcrumbdemo/base-top-menu.ftl
+        hst:renderpath: webfile:/freemarker/breadcrumbdemo/menu.ftl
       /base-footer:
         jcr:primaryType: hst:template
         hst:renderpath: webfile:/freemarker/breadcrumbdemo/base-footer.ftl

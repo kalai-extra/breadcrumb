@@ -1,4 +1,5 @@
 /content/documents/breadcrumbdemo/testfolder:
+  .meta:order-before: level1
   jcr:primaryType: hippostd:folder
   jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
   jcr:uuid: 6f8319e8-3e69-4621-beb9-c5cb3c849128
